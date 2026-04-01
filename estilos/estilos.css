@@ -1,0 +1,28 @@
+/* Aqui van los estilos css */
+
+/* ESTILOS UNIVERSALES */
+*{
+    margin: 0;
+    padding: 0; /* bordes internos de un contenedor */
+    box-sizing: border-box; 
+}
+
+/* ESTILOS DEL BODY */
+body{
+    background-color: #f1f2f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* vamos en modo cascada, es decir que solo cambia el primer h1 */
+h1{
+    color: blue;  /* color del texto */
+    max-width: 50%;
+    text-align: center !important; /* texto para alinear en el centro  */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* cambiar la fuente con font family */
+    font-size: 36 px; /* tamaño del texto */
+    margin: auto;
+    
+
+    
+
+}
