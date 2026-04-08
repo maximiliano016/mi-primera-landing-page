@@ -1,28 +1,52 @@
-/* Aqui van los estilos css */
-
-/* ESTILOS UNIVERSALES */
-*{
-    margin: 0;
-    padding: 0; /* bordes internos de un contenedor */
-    box-sizing: border-box; 
+div{
+  text-align: center;
 }
-
-/* ESTILOS DEL BODY */
-body{
-    background-color: #f1f2f9;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* vamos en modo cascada, es decir que solo cambia el primer h1 */
 h1{
-    color: blue;  /* color del texto */
-    max-width: 50%;
-    text-align: center !important; /* texto para alinear en el centro  */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* cambiar la fuente con font family */
-    font-size: 36 px; /* tamaño del texto */
-    margin: auto;
-    
+  font-size: 36px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+}
+h3{
+  font-size: 24px;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+  text-align: center;
 
-    
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;  
+}
 
+h1.logo{
+    margin-right: 45%;
+
+}
+header {
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
