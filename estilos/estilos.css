@@ -1,52 +1,95 @@
-div{
-  text-align: center;
-}
-h1{
-  font-size: 36px;
-  text-align: center;
-}
-h2{
-  font-size: 30px;
-  text-align: center;
-}
-h3{
-  font-size: 24px;
-  text-align: center;
-}
-p{
-  font-size: 16px;
-  text-align: center;
-
-}
+/* estilos universales */
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;  
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
 }
 
-h1.logo{
-    margin-right: 45%;
-
-}
-header {
-  background-color: black;
-  color: whitesmoke;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  width: 100%;
+/* TODO el contenido centrado */
+body {
+    text-align: center;
 }
 
-nav ul {
+/* barra de navegacion */
+.menu {
+    display: block;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.lista-menu {
+    list-style: none;
+}
+
+/* lista del menu */
+.lista-menu li {
+    display: inline;
+    margin: 15px;
+}
+
+.lista-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* quitar la lista a la lista XD */
+.lista-primera{
   list-style: none;
-  display: flex;
 }
 
-nav li {
-  margin-right: 40px;
+/* Evita que la barra del menu tape la primera seccion */
+.contenedor {
+    margin-top: 80px;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
+/* Separacion entre cada seccion */
+.seccion {
+    padding: 10px;
+}
+
+/* id de boton para cambiar todos los botones de la pagina */
+#boton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* en el apartado de mi forma de trabajar  */
+.grid {
+    display: flex; /* los hace en linea y no para abajo XD */
+    justify-content: center;
+}
+
+/* los cuadros de la misma seccion */
+.cuadro {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+}
+
+/* apartado de planes */
+.contenedor-planes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* separacion del contenido */
+    flex-wrap: wrap;
+}
+
+/* cuadros de la misma seccion */
+.plan {
+    border: 2px solid black;
+    padding: 20px;
+    width: 220px;
 }

@@ -1,63 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-
-    <!-- ENLAZAR PARA EL ESTILO CSS -->
-     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
 <body>
-<header>
-  <h1 class="logo">Maximiliano Parra</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Sobre Mi</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Contacto</a></li>
+<!-- barra de navegacion-->
+<div class="menu">
+    <h2 class="logo">Maximiliano Parra</h2>
+    <ul class="lista-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre mi</a></li>
+        <li><a href="#trabajo">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
     </ul>
-  </nav>
-</header>
-<br>
+</div>
 
-    <!-- PRIMERA SECCION -->
-    <div class="primeraseccion1">
-        <h1>¿Cuántas oportunidades más vas a dejar pasar por
-            no mostrar lo que vales de verdad?</h1>
+<!-- contenedor general -->
+<div class="contenedor">
 
-        <p>
-            Cada semana que pasa, pierdes posibles clientes por una sola razón:
-            nadie entiende lo que vales.
-        </p>
+    <!-- SECCION 1 -->
+    <div class="seccion" id="inicio">
+        <h1>¿Cuántas oportunidades más vas a dejar pasar por no mostrar lo que vales de verdad?</h1>
 
-        <p>
-            Hay personas buscando exactamente lo que ofreces…
-            pero si tu presencia digital no transmite confianza,
-            claridad ni emoción, tu cliente ideal ya estará trabajando con otro.
-        </p>
+        <p>Cada semana que pasa, pierdes posibles clientes por una sola razón: nadie entiende lo que vales.</p>
 
-        <p>
-            Ya es momento de tener una herramienta que posicione,
-            conecte y convierta.
-        </p>
+        <p>Hay personas buscando exactamente lo que ofreces… pero si tu presencia digital no transmite confianza, claridad ni emoción, tu cliente ideal ya estará trabajando con otro.</p>
 
-        <!-- button es para crear un boton (no tiene ningun tipo de interaccion hasta darle una) -->
-        <button>Postular Ahora</button>
+        <p>Ya es momento de tener una herramienta que posicione, conecte y convierta.</p>
+
+        <button id="boton">Postular Ahora</button>
     </div>
 
-
-    <!-- SEGUNDA SECCION -->
-    <div>
+    <!-- SECCION 2 -->
+    <div class="seccion">
         <h2>No es falta de talento.</h2>
         <h3>Es falta de estructura para comunicarlo</h3>
 
         <p>¿Te suena familiar?</p>
 
-        <ul>
+        <ul class="lista-primera">
             <li>Tengo un servicio increíble, pero los clientes no llegan</li>
             <li>Tengo miedo de subir precios</li>
             <li>Mis clientes regatean mis precios</li>
@@ -67,172 +51,120 @@
         </ul>
     </div>
 
-
-    <!-- TERCERA SECCION -->
-    <div>
+    <!-- SECCION 3 -->
+    <div class="seccion">
         <h2>La buena noticia es que el problema no es tu talento</h2>
 
-        <p>
-            Hace unas semanas llegó una profesional con experiencia,
-            formación y resultados… pero sin visibilidad.
-        </p>
+        <p>Hace unas semanas llegó una profesional con experiencia, formación y resultados… pero sin visibilidad.</p>
 
-        <p>
-            No tenía una página web que transmitiera lo que realmente valía.
-        </p>
+        <p>No tenía una página web que transmitiera lo que realmente valía.</p>
 
-        <p>
-            En menos de 30 días, todo cambió.
-        </p>
+        <p>En menos de 30 días, todo cambió.</p>
 
-        <p>
-            Hoy su agenda está llena, porque ahora comunica su valor correctamente.
-        </p>
+        <p>Hoy su agenda está llena, porque ahora comunica su valor correctamente.</p>
 
-        <button>Quiero cambiar</button>
+        <button id="boton">Quiero cambiar</button>
     </div>
 
-
-    <!-- CUARTA SECCION -->
-    <div>
+    <!-- SECCION 4 -->
+    <div class="seccion">
         <h2>Tu página no es un adorno</h2>
 
-        <p>
-            Es tu mejor herramienta de ventas cuando no estás presente.
-        </p>
+        <p>Es tu mejor herramienta de ventas cuando no estás presente.</p>
 
-        <p>
-            Debe guiar, conectar y generar confianza desde el primer momento.
-        </p>
+        <p>Debe guiar, conectar y generar confianza desde el primer momento.</p>
 
-        <p>
-            Piensa en tu página como un asesor que trabaja por ti 24/7.
-            Sin errores. Sin improvisación. Siempre guiando al cliente ideal hasta la acción.
-        </p>
+        <p>Piensa en tu página como un asesor que trabaja por ti 24/7. Sin errores. Sin improvisación. Siempre guiando al cliente ideal hasta la acción.</p>
     </div>
 
-
-    <!-- SECCIÓN: SOBRE MÍ -->
-    <div>
+    <!-- SOBRE MI -->
+    <div class="seccion" id="sobre">
         <h2>Sobre mí</h2>
 
-        <p>
-            Todo empezó al ver cómo muchos freelancers tenían talento,
-            pero no lograban venderlo.
-        </p>
+        <p>Todo empezó al ver cómo muchos freelancers tenían talento, pero no lograban venderlo.</p>
 
-        <p>
-            Diseños sin dirección, páginas que se veían bien…
-            pero no generaban resultados.
-        </p>
+        <p>Diseños sin dirección, páginas que se veían bien… pero no generaban resultados.</p>
 
-        <p>
-            Durante mucho tiempo se creyó que un buen diseño era suficiente.
-            Pero después de trabajar con diferentes proyectos,
-            entendí que no es así.
-        </p>
+        <p>Durante mucho tiempo se creyó que un buen diseño era suficiente. Pero después de trabajar con diferentes proyectos, entendí que no es así.</p>
 
-        <p>
-            Sin estructura, sin mensaje y sin intención…
-            todo se convierte en simple decoración digital.
-        </p>
+        <p>Sin estructura, sin mensaje y sin intención… todo se convierte en simple decoración digital.</p>
 
-        <p>
-            Por eso hoy me enfoco en crear páginas que no solo se vean bien,
-            sino que realmente comuniquen, conecten y generen resultados.
-        </p>
+        <p>Por eso hoy me enfoco en crear páginas que no solo se vean bien, sino que realmente comuniquen, conecten y generen resultados.</p>
 
-        <p>
-            No se trata de hacer algo bonito.
+        <p>No se trata de hacer algo bonito.</p>
+
         <h3>Se trata de que funcione.</h3>
-        </p>
 
-        <button>Quiero resultados</button>
+        <button id="boton">Quiero resultados</button>
     </div>
 
-
-    <!-- SEXTA SECCION -->
-    <!-- contenedor principal de los contenedores XD -->
-    <div>
+    <!-- FORMA DE TRABAJAR -->
+    <div class="seccion" id="trabajo">
 
         <h2>Mi forma de trabajar</h2>
         <p>Así es como trabajo contigo paso a paso</p>
 
-        <!-- Primer contenedor -->
-        <div>
-            <h3>01</h3>
-            <h4>Aplicación inicial</h4>
-            <p>Llenas un formulario donde analizo detalladamente tu negocio.</p>
+        <div class="grid">
+
+            <div class="cuadro">
+                <h1>01</h1>
+                <h2>Aplicación inicial</h2>
+                <p>Llenas un formulario donde analizo detalladamente tu negocio.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>02</h1>
+                <h2>Reunión de diagnóstico</h2>
+                <p>Definimos metas, audiencias y bloqueos actuales.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>03</h1>
+                <h2>Aceptación</h2>
+                <p>Te envio: contrato, desglose de servicios, términos y condiciones y link de pago.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>04</h1>
+                <h2>Briefing</h2>
+                <p>Me cuentas todo sobre tu negocio para iniciar el proyecto.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>05</h1>
+                <h2>Diseño</h2>
+                <p>Empiezo creando la estructura, el mensaje y estilo con tu aprobación en cada paso.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>06</h1>
+                <h2>Publicación final</h2>
+                <p>Cargo tu sitio en línea, optimizado y listo para funcionar.</p>
+            </div>
+
+            <div class="cuadro">
+                <h1>07</h1>
+                <h2>Finalización completa</h2>
+                <p>Te entrego el material final y soporte por 17 días después.</p>
+            </div>
+
         </div>
 
-        <!-- segundo contenedor -->
-        <div>
-            <h3>02</h3>
-            <h4>Reunión de diagnóstico</h4>
-            <p>Definimos metas, audiencias y bloqueos actuales.</p>
-        </div>
-
-        <!-- tercer contenedor -->
-        <div>
-            <h3>03</h3>
-            <h4>Aceptación</h4>
-            <p>Te envio: contrato, desglose de servicios, términos y condiciones y link de pago.</p>
-        </div>
-
-        <!-- cuarto contenedor -->
-        <div>
-            <h3>04</h3>
-            <h4>Briefing</h4>
-            <p>Me cuentas todo sobre tu negocio para iniciar el proyecto.</p>
-        </div>
-
-        <!-- quinto contenedor -->
-        <div>
-            <h3>05</h3>
-            <h4>Diseño</h4>
-            <p>Empiezo creando la estructura, el mensaje y estilo con tu aprobación en cada paso.</p>
-        </div>
-
-        <!-- sexto contenedor -->
-        <div>
-            <h3>06</h3>
-            <h4>Publicación final</h4>
-            <p>Cargo tu sitio en línea, optimizado y listo para funcionar.</p>
-        </div>
-
-        <!-- septimo contenedor -->
-        <div>
-            <h3>07</h3>
-            <h4>Finalización completa</h4>
-            <p>Te entrego el material final y soporte por 17 días después.</p>
-        </div>
-
-        <br>
-
-        <button>Quiero trabajar contigo</button>
-
+        <button id="boton">Quiero trabajar contigo</button>
     </div>
 
-
-    <!-- SEPTIMA SECCION: PLANES -->
-    <div>
+    <!-- PLANES -->
+    <div class="seccion">
 
         <h2>Accede antes del cambio</h2>
 
-        <p>
-            Mientras perfecciono casos de éxito, puedes acceder a mi estrategia
-            y servicios por menos de $300.
-        </p>
+        <p>Mientras perfecciono casos de éxito, puedes acceder a mi estrategia y servicios por menos de $300.</p>
 
-        <p>
-            Aprovecha esta etapa inicial. Pronto el sistema se consolidará y su valor se TRIPLICARÁ
-        </p>
+        <p>Aprovecha esta etapa inicial. Pronto el sistema se consolidará y su valor se TRIPLICARÁ</p>
 
-        <!-- PLANES -->
-        <div>
+        <div class="contenedor-planes">
 
-            <!-- PLAN 1 -->
-            <div>
+            <div class="plan">
                 <h3>OnePage PRO</h3>
                 <p>Ideal si ya tienes dominio y hosting listos.</p>
 
@@ -250,10 +182,11 @@
 
                 <p>Antes: $947</p>
                 <p>Ahora: $197</p>
+
+                <button id="boton">Elegir plan</button>
             </div>
 
-            <!-- PLAN 2 -->
-            <div>
+            <div class="plan">
                 <h3>OnePage ULTRA</h3>
                 <p>Ideal si quieres que nos encarguemos de TODO.</p>
 
@@ -271,30 +204,27 @@
 
                 <p>Antes: $1297</p>
                 <p>Ahora: $297</p>
+
+                <button id="boton">Elegir plan</button>
             </div>
 
         </div>
 
-        <button>Quiero tomar acción</button>
-
+        <button id="boton">Quiero tomar acción</button>
     </div>
 
-
-    <!-- SECCIÓN 8: CIERRE -->
-    <div>
+    <!-- CIERRE -->
+    <div class="seccion" id="contacto">
         <h2>No necesitas más excusas</h2>
 
-        <p>
-            Una presencia digital sin estrategia no ayuda… te frena.
-        </p>
+        <p>Una presencia digital sin estrategia no ayuda… te frena.</p>
 
-        <p>
-            En pocas semanas podrías tener una página que venda por ti.
-        </p>
+        <p>En pocas semanas podrías tener una página que venda por ti.</p>
 
-        <button>Quiero vender sin esfuerzo</button>
+        <button id="boton">Quiero vender sin esfuerzo</button>
     </div>
 
-</body>
+</div>
 
+</body>
 </html>
